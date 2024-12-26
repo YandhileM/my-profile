@@ -220,13 +220,42 @@ img {
   grid-template-columns: repeat(2, 1fr);
 }
 
+.perfil__buttons .button{
+  padding: .75rem 0;
+}
+
 /*===== INFO =====*/
+
+.info{
+  background-color: var(--container-color);
+  padding: 2rem 1.5rem;
+  border-radius: 2rem;
+}
 
 /*===== ABOUT =====*/
 
 /*===== SKILLS =====*/
 
 /*=============== BUTTON ===============*/
+
+.button {
+  display: inline-flex;
+  justify-content: center;
+  background-color: var(--first-color);
+  color: var(--white-color);
+  font-weight: var(--font-semi-bold);
+  padding: 1.25rem 2.5rem;
+  border-radius: 4rem;
+  transition: background-color .4s;
+}
+
+.button__black {
+  background-color: var(--black-color);
+}
+
+.button:hover {
+  background-color: var(--first-color-alt);
+}
 
 /*=============== PROJECTS ===============*/
 
