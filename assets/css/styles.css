@@ -494,6 +494,39 @@ img {
 
 /*=============== EXPERIENCE ===============*/
 
+.experience__container{
+  row-gap: 2rem;
+}
+
+.experience__card{
+  display: grid;
+  row-gap: 1rem;
+}
+
+.experience__company{
+  font-size: var(--h2-font-size);
+}
+
+.experience__data{
+  background-color: var(--container-color);
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+}
+
+.experience__projession{
+  font-size: var(--h3-font-size);
+  margin-bottom: .5rem;
+}
+
+.experience__date{
+  display: block;
+  font-size: var(--small-font-size);
+  margin-bottom: 1rem;
+}
+
+.experience__description{
+  color: var(--text-color);
+}
 /*=============== CONTACT ===============*/
 
 /*=============== FOOTER ===============*/
