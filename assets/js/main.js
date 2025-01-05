@@ -11,7 +11,7 @@ const sendEmail = (e) => {
     emailjs.sendForm('service_p78019p', 'template_v0t2d9h', '#contact-form', '2eMZq08wHV_Npo2aq').then(() => {
         // Show sent message
         contactMessage.textContent = 'Message sent successfully ✅';
-        emailjs.sendForm('service_p78019p', 'template_7rhlc18', '#contact-form', '2eMZq08wHV_Npo2aq')
+        // emailjs.sendForm('service_p78019p', 'template_7rhlc18', '#contact-form', '2eMZq08wHV_Npo2aq')
 
         //remove message after 5 seconds
         setTimeout(() => {
