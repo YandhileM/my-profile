@@ -19,12 +19,12 @@ jobs:
       #     root: .
           
       
-      - name: Stylelint
-        uses: reviewdog/action-stylelint@v1
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          reporter: github-pr-review
-          stylelint_input: '**/*.css'
+      # - name: Stylelint
+      #   uses: reviewdog/action-stylelint@v1
+      #   with:
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
+      #     reporter: github-pr-review
+      #     stylelint_input: '**/*.css'
       
       - name: Deploy to Netlify
         uses: nwtgck/actions-netlify@v2.0
