@@ -359,6 +359,15 @@ img {
   font-size: var(--small-font-size);
 }
 
+.skills__text {
+  font-size: var(--small-font-size);
+  font-weight: var(--font-semi-bold);
+  color: #512BD4;
+  background-color: var(--black-color);
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+}
+
 /*=============== BUTTON ===============*/
 
 .button {
